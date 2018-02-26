@@ -57,12 +57,7 @@ class Sorter {
   }
 
   setComparator(compareFunction) {
-     if(compareFunction === "REVERSE_COMPARATOR")
-     {
-         this._storage.sort(function(left,right){
-             return right-left;
-         })
-     }
+    
     // your implementation
 
   }
